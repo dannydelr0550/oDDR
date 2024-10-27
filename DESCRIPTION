@@ -1,0 +1,16 @@
+Package: oDDR
+Type: Package
+Title: Returns the Odds Ratios Associated with Parameter Estimates in Logistic Regression
+Version: 0.1.0
+Author: Daniel Del Rosso
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: A function that returns the point estimate and 95\% CI of the Odds Ratios corresponding to an inputted set of coefficients and standard errors from logistic regression.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
